@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+encoding//conf/config.py=utf-8
+encoding//general/bkdbWrapper.py=utf-8
+encoding//general/config.py=utf-8
+encoding//general/control_next_time.py=utf-8
+encoding//general/keyword_in_url.py=utf-8
+encoding//general/mxutil.py=utf-8
+encoding//general/pattern.py=utf-8
+encoding//general/spiders/general_spider.py=utf-8
+encoding//tests/bkdbWrapper.py=utf-8
+encoding//tests/test_add_to_pending_list.py=utf-8
+encoding//tests/test_keyword_in_url.py=utf-8
+encoding//tests/test_log.py=utf-8

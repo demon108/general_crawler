@@ -1,0 +1,9 @@
+Scrapy-0.15.1-py2.7.egg/scrapy/contrib/spidermiddleware:
+
+    def process_spider_output(self, response, result, spider):
+        def _filter(request):
+            if isinstance(request, Request):
+                if '_depth' in request.meta:
+                    depth = request.meta['_depth']
+                else:
+                    depth = response.request.meta['depth'] + 1

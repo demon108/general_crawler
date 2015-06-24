@@ -1,0 +1,6 @@
+general crawler
+
+run this crawler:
+   1、cd scrapy_general
+   2、sh run.sh
+

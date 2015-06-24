@@ -1,0 +1,9 @@
+/usr/local/lib/python2.7/site-packages/Scrapy-0.18.4-py2.7.egg/scrapy/http/response/
+
+ 80     def _auto_detect_fun(self, text):
+ 81         +for enc in (self._DEFAULT_ENCODING, 'utf-8', 'gbk', 'cp1252'):
+ 82             try:
+ 83                 text.decode(enc)
+ 84             except UnicodeError:
+ 85                 continue
+ 86             return resolve_encoding(enc)

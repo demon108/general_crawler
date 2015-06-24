@@ -1,0 +1,5 @@
+#匹配url关键词的配置文件
+#除以#开头的内容，第一行为优质url的关键词，第二行为垃圾url的关键字
+intel`IBM`丰田`东风`长城
+#test
+xiaojieshangmen`chuanxiaozuzhi`小姐上门`传销组织
